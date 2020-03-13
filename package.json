@@ -1,0 +1,27 @@
+{
+    "name": "nodejs-security-best-practice",
+    "version": "1.0.0",
+    "description": "this is a project for guiding nodejs best practice in security",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hamidhmz/nodejs-security-best-practice.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hamidhmz/nodejs-security-best-practice/issues"
+    },
+    "homepage": "https://github.com/hamidhmz/nodejs-security-best-practice#readme",
+    "dependencies": {
+        "bcrypt": "^4.0.1",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.4",
+        "nodemon": "^2.0.2"
+    }
+}
